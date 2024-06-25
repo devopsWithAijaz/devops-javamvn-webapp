@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: aijazmeer-eta-container
-        image: aijazmeereta/aijazmeer-eta-app
+        image: aijazmeer/aijazmeer-eta-app
         ports:
         - containerPort: 8080
 ---
