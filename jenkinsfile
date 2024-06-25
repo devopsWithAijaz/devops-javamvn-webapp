@@ -11,7 +11,7 @@ pipeline {
         stage('SCM_Checkout') {
             steps {
                 echo 'Perform SCM Checkout'
-				git 'https://github.com/Edu-DCP-May20/devops-java-webapp.git'
+				git 'https://github.com/devopsWithAijaz/devops-javamvn-webapp.git'
             }
         }
         stage('Application_Build') {
